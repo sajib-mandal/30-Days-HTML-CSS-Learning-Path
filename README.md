@@ -1,6 +1,35 @@
 # HTML
 <img src="https://github.com/sajib-mandal/30-Days-HTML-CSS-Learning-Path/blob/main/images/html_element.png" alt="HTML element" height="200" width="400">
 
+## What is Non-Semantice HTML?
+Non-semantic HTML elements are those that don't provide inherent meaning or context to the content they contain. These elements are primarily used for presentational purposes and don't convey the structure or purpose of the content. Tells nothing about its content. While these non-semantic elements can still be used in HTML, it is generally recommended to prioritize the use of semantic elements whenever possible. Semantic elements provide better structure, accessibility, and search engine optimization (SEO) benefits, as they convey meaning and improve the overall understanding of the content. Here are some examples of non-semantic HTML elements along with their common meanings:
+
+- `<div>`: A generic container used to group and style content. It doesn't have any specific meaning or semantic value.
+
+- `<span>`: A generic inline container used for applying styles or scripting to small portions of text.
+
+- `<b>`: Represents bold text. It is often used for visual styling, but it doesn't convey any semantic meaning.
+
+- `<i>`: Represents italicized text. Similarly, it is primarily used for styling rather than conveying specific meaning.
+
+- `<u>`: Represents underlined text. It is also used for visual styling purposes rather than indicating specific meaning.
+
+- `<font>`: Used to apply font styles, sizes, and colors to text. However, it is considered outdated and is no longer recommended for use.
+
+- `<center>`: Used to horizontally center-align content within a container. Like `<font>`, it is considered outdated and should be avoided.
+
+- `<br>`: Represents a line break, used to create a new line within a paragraph or block of text.
+
+- `<hr>`: Represents a horizontal rule or divider, used to separate content sections.
+
+- `<s>`: Represents strikethrough text. It is commonly used to indicate deleted or deprecated content.
+
+- `<small>`: Renders the enclosed text in a smaller font size. It is typically used for disclaimers or fine print.
+
+- `<sup>`: Renders the enclosed text as superscript, typically used for footnotes or mathematical exponents.
+
+- `<sub>`: Renders the enclosed text as subscript, often used for chemical formulas or mathematical subscripts.
+
 ## What is Semantice HTML?
 Semantic HTML (also called semantic markup) is HTML code that uses HTML tages to effectively describe the purpose of page elements. Semantic HTML code communicates the meaning of it's elements to both computers and humans, which helps web browsers, search engines, assistive technologies, and human developers understand the components of a web page.
 
