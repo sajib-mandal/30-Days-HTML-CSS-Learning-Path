@@ -1,6 +1,7 @@
 # HTML
 <img src="https://github.com/sajib-mandal/30-Days-HTML-CSS-Learning-Path/blob/main/images/html_element.png" alt="HTML element" height="200" width="400">
 ## What is Semantice HTML?
+
 Semantic HTML (also called semantic markup) is HTML code that uses HTML tages to effectively describe the purpose of page elements. Semantic HTML code communicates the meaning of it's elements to both computers and humans, which helps web browsers, search engines, assistive technologies, and human developers understand the components of a web page.
 
 - **`<header>`**: Represents the introductory content or the header section of a document or a section within a document.
