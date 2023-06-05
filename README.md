@@ -6,43 +6,32 @@ Semantic HTML (also called semantic markup) is HTML code that uses HTML tages to
 
 Semantic HTML elements provide meaning and structure to the content within an HTML document. They convey information about the purpose and role of different sections or elements on a webpage. Here are some commonly used semantic HTML elements along with their meanings:
 
-- **`<header>`**: Represents the introductory content or the header section of a document or a section within a document.
-
 - **`<strong>`**: Represents strong importance or emphasis. Draws attentaion to important text. Most browsers BOLD the text inside this tag by default.
 - **`<em>`**: Represents emphasized text. Most browsers ITALICIZE text inside this tag by default.
 - **`<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`**: Heading elements represent hierarchical levels of section headings, with `<h1>` being the highest and `<h6>` being the lowest.
 - **`<p>`**: Represents a paragraph of text.
-
+- **`<ol>`**: Represents ordered list.
+- **`<ul>`**: Represents unordered list.
+- **`<a>`**: Represents anchor. A hyperling. By default, browsers will change the link color to blue and add a `underline which you can remove`.
+- **`<button>`**: A button element.
+- **`<img>`**: An image.
+- **`<table>`**: A table with columns and rows of data.
 - **`<header>`**: Represents the introductory content or the header section of a document or a section within a document.
-
+- **`<header>`**: Represents the introductory content or the header section of a document or a section within a document.
 - **`<nav>`**: Represents a section of navigation links.
-
 - **`<main>`**: Represents the main content area of a document. It should be unique and not repeated across multiple pages.
-
 - **`<article>`**: Represents a self-contained composition, such as a blog post, article, or a news story.
-
 - **`<section>`**: Represents a standalone section within a document that groups related content.
-
 - **`<aside>`**: Represents content that is tangentially related to the main content, often displayed as a sidebar.
-
 - **`<footer>`**: Represents the footer section of a document or a section within a document, typically containing authorship information, copyright notices, or related links.
-
 - **`<figure> and <figcaption>`**: Used for images that require a description. `<figure>` contains the image itself, and `<figcaption>` contains the caption associated with the image.
-
 - **`<figcaption>`**: Represents the caption or description for a `<figure>` element.
-
 - **`<q> (quote) and <blockquote>`**: A quotation. Use `<q>` for shorter quotes and `<blockquote>` for longer quotes.
-
 - **`<cite>`**: Represents the title or source of a work, such as the name of a book or the author of an article.
-
 - **`<time>`**: Represents a specific time or a range of time.
-
 - **`<mark>`**: Represents highlighted or marked text for reference or emphasis.
-
 - **`<abbr>`**: Represents an abbreviation or acronym, providing additional information or expanding the abbreviated term.
-
 - **`<code>`**: Represents a fragment of computer code or a code sample.
-
 - **`<pre>`**: Represents preformatted text, typically used for displaying code blocks or preserving whitespace formatting.
 
 
