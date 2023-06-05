@@ -4,8 +4,9 @@
 ## What is Semantice HTML?
 Semantic HTML (also called semantic markup) is HTML code that uses HTML tages to effectively describe the purpose of page elements. Semantic HTML code communicates the meaning of it's elements to both computers and humans, which helps web browsers, search engines, assistive technologies, and human developers understand the components of a web page.
 
-- **`<header>`**: Represents the introductory content or the header section of a document or a section within a document.
 Semantic HTML elements provide meaning and structure to the content within an HTML document. They convey information about the purpose and role of different sections or elements on a webpage. Here are some commonly used semantic HTML elements along with their meanings:
+
+- **`<header>`**: Represents the introductory content or the header section of a document or a section within a document.
 
 - **`<strong>`**: Represents strong importance or emphasis. Draws attentaion to important text. Most browsers BOLD the text inside this tag by default.
 - **`<em>`**: Represents emphasized text. Most browsers ITALICIZE text inside this tag by default.
