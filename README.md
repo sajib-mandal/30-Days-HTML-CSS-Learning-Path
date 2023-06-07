@@ -76,7 +76,7 @@ Important properties to style text with CSS:
     font-family: sans-serif;
     text-transform: uppercase;
     font-style: italic;
-    line-height: 1.5; (unit)
+    line-height: 1.5; /* (unit) */
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
