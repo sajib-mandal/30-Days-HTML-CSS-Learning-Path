@@ -119,6 +119,11 @@ Important properties to style text with CSS:
 
 # Color
 ### RGB Color:
-RDB color is a way of representing colors using three primary color channels: red, green, and blue. Each channel is typically represented by an integer value ranging from 0 to 255, indicating the intensity of that color channel. By combining different intensities of red, green, and blue, a wide range of colors can be created. For example, RDB color code rgb(255, 0, 0) represents pure red, while rgb(0, 255, 0) represents pure green.
-RDB colors are commonly used in various programming languages, graphic software, and web development. They provide a straightforward representation of colors using familiar color channels.
+RDB color is a way of representing colors using three primary color channels: `red`, `green`, and `blue`. Each channel is typically represented by an integer value ranging from `0` to `255`, indicating the intensity of that color channel. By combining different intensities of red, green, and blue, a wide range of colors can be created. For example, RDB color code rgb(255, 0, 0) represents pure red, while rgb(0, 255, 0) represents pure green.
+
+### Hexadecimal Color:
+Hexadecimal color codes, often referred to as hex codes, are a way of representing colors using a combination of six hexadecimal digits. Each digit represents an intensity level of one of the three primary color channels: `red`, `green`, and `blue`. Hexadecimal digits range from `0` to `9` and `A` to `F`, where A represents 10, B represents 11, and so on, up to F representing 15.They are denoted by a hash symbol (#) followed by six hexadecimal digits. For example, #FF0000 represents pure red, and #00FF00 represents pure green.
+
+**Note**:
+- We all the time use Hex color but when we need `opacity` then use opacity then use `RGBA(Red-Green-Blue-Alpha)`. The alpha value represents transparency, with 0 meaning fully transparent and 1 meaning fully opaque. Where the alpha value is set to 0.5 (50% opacity).
 
