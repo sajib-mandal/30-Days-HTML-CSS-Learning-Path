@@ -92,3 +92,14 @@ Important properties to style text with CSS:
   /* CSS styles */
 }
 ```
+
+### Class Selector:
+```html
+<div class="myClass">...</div>
+```
+
+```css
+.myClass {
+  /* CSS styles */
+}
+```
