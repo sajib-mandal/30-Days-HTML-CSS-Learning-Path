@@ -71,7 +71,7 @@ Semantic HTML elements provide meaning and structure to the content within an HT
 
 ## Style Text
 Important properties to style text with CSS:
-```html
+```css
     font-size: 26px;
     font-family: sans-serif;
     text-transform: uppercase;
