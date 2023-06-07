@@ -81,3 +81,6 @@ Important properties to style text with CSS:
     font-weight: bold;
     text-decoration: underline;
 ```
+
+## HTML Selector
+### ID Selector:
