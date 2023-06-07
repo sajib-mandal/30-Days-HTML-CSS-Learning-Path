@@ -95,7 +95,7 @@ Important properties to style text with CSS:
 
 ### Class Selector:
 ```html
-<div class="myClass">...</div>
+<div class="myCass">...</div>
 ```
 
 ```css
@@ -103,3 +103,18 @@ Important properties to style text with CSS:
   /* CSS styles */
 }
 ```
+## Difference between ID and Class selector.
+### ID Selector:
+- An ID selector is used to uniquely identify an element on a web page. It should be unique within the entire HTML document. You can assign an ID to any HTML element using the id attribute. ID selectors are denoted by the hash symbol (#) followed by the ID value.
+- Unique: IDs must be unique within the HTML document.
+
+### Class Selector:
+- A class selector is used to select multiple elements that share the same class attribute. You can assign a class to any HTML element using the class attribute. Class selectors are denoted by a dot (.) followed by the class name.
+- High specificity: ID selectors have higher specificity than class selectors, which means they override styles applied by class selectors.
+- Used for individual elements: IDs are often used to style or manipulate a specific element on a page.
+
+### Class Selector:
+- A class selector is used to select multiple elements that share the same class attribute. You can assign a class to any HTML element using the class attribute. Class selectors are denoted by a dot (.) followed by the class name. 
+- Not unique: Multiple elements can share the same class.
+- Lower specificity: Class selectors have lower specificity than ID selectors, so styles applied by ID selectors override those applied by class selectors.
+- Used for multiple elements: Classes are often used to apply common styles or functionality to multiple elements throughout a page.
