@@ -84,3 +84,11 @@ Important properties to style text with CSS:
 
 ## HTML Selector
 ### ID Selector:
+```html
+   <div id="myElement">...</div>
+```
+```css
+#myElement {
+  /* CSS styles */
+}
+```
