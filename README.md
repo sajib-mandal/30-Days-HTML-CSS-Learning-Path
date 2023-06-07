@@ -115,3 +115,10 @@ Important properties to style text with CSS:
 - Not unique: Multiple elements can share the same class.
 - Lower specificity: Class selectors have lower specificity than ID selectors, so styles applied by ID selectors override those applied by class selectors.
 - Used for multiple elements: Classes are often used to apply common styles or functionality to multiple elements throughout a page.
+
+
+# Color
+### RGB Color:
+RDB color is a way of representing colors using three primary color channels: red, green, and blue. Each channel is typically represented by an integer value ranging from 0 to 255, indicating the intensity of that color channel. By combining different intensities of red, green, and blue, a wide range of colors can be created. For example, RDB color code rgb(255, 0, 0) represents pure red, while rgb(0, 255, 0) represents pure green.
+RDB colors are commonly used in various programming languages, graphic software, and web development. They provide a straightforward representation of colors using familiar color channels.
+
