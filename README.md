@@ -66,3 +66,5 @@ Semantic HTML elements provide meaning and structure to the content within an HT
 
 ## HTML Page Structure
 <img src="https://github.com/sajib-mandal/30-Days-HTML-CSS-Learning-Path/blob/main/images/html_structure.jpg" alt="HTML page structure" height="500" width="500">
+
+# CSS(Cascading Style Sheets)
