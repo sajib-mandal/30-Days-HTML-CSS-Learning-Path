@@ -136,6 +136,7 @@ The box model is one of the most fundamental and important principles of CSS so 
 - `Margin` – The space between the box and the other objects around it.
 
 <img src="https://github.com/sajib-mandal/30-Days-HTML-CSS-Learning-Path/blob/main/images/boxmodel.png" alt="HTML element" height="350" width="400">
+
 **Note:**
 
 - Whenever you need some space inside of an element, use `Peding`.
