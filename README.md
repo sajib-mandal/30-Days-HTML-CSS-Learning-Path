@@ -64,11 +64,75 @@ Semantic HTML elements provide meaning and structure to the content within an HT
 - **`<pre>`**: Represents preformatted text, typically used for displaying code blocks or preserving whitespace formatting.
 
 
-## How to Bold Text in HTML?
-To bold the text in HTML, you can use either the `<strong>` tag or the `<b>` (bold) tag. Browsers will bold the text inside both of these tags the same way, but the `<strong>` tag indicates that the text is of particular importance. You can also bold text with the CSS `font-weight` property set to `bold`.
+## HTML Page Structure
+<img src="https://github.com/sajib-mandal/30-Days-HTML-CSS-Learning-Path/blob/main/images/html_structure.jpg" alt="HTML page structure" height="500" width="500">
 
-When bolding text, it’s considered a best practice to use the `<strong>` tag. This is because it is `semantic element`, whereas `<b>` is not. Non-semantic elements are worse for accessibility and can make content localization and future-proofing difficult. Additionally, if the text bolding is purely stylistic, it’s better to use CSS and keep all page styling separate from the content.
+# CSS(Cascading Style Sheets)
 
-```html
-<p>HTML stands for <strong>Hypertext Markup Language</strong></p>
+## Style Text
+Important properties to style text with CSS:
+```css
+    font-size: 26px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 1.5; /* (unit) */
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
 ```
+
+## HTML Selector
+### ID Selector:
+```html
+   <div id="myElement">...</div>
+```
+```css
+#myElement {
+  /* CSS styles */
+}
+```
+
+### Class Selector:
+```html
+<div class="myCass">...</div>
+```
+
+```css
+.myClass {
+  /* CSS styles */
+}
+```
+## Difference between ID and Class selector.
+### ID Selector:
+- An ID selector is used to uniquely identify an element on a web page. It should be unique within the entire HTML document. You can assign an ID to any HTML element using the id attribute. ID selectors are denoted by the hash symbol (#) followed by the ID value.
+- Unique: IDs must be unique within the HTML document.
+- High specificity: ID selectors have higher specificity than class selectors, which means they override styles applied by class selectors.
+- Used for individual elements: IDs are often used to style or manipulate a specific element on a page.
+
+### Class Selector:
+- A class selector is used to select multiple elements that share the same class attribute. You can assign a class to any HTML element using the class attribute. Class selectors are denoted by a dot (.) followed by the class name. 
+- Not unique: Multiple elements can share the same class.
+- Lower specificity: Class selectors have lower specificity than ID selectors, so styles applied by ID selectors override those applied by class selectors.
+- Used for multiple elements: Classes are often used to apply common styles or functionality to multiple elements throughout a page.
+
+
+# Color
+### RGB Color:
+RDB color is a way of representing colors using three primary color channels: `red`, `green`, and `blue`. Each channel is typically represented by an integer value ranging from `0` to `255`, indicating the intensity of that color channel. By combining different intensities of red, green, and blue, a wide range of colors can be created. For example, RDB color code rgb(255, 0, 0) represents pure red, while rgb(0, 255, 0) represents pure green.
+
+### Hexadecimal Color:
+Hexadecimal color codes, often referred to as hex codes, are a way of representing colors using a combination of six hexadecimal digits. Each digit represents an intensity level of one of the three primary color channels: `red`, `green`, and `blue`. Hexadecimal digits range from `0` to `9` and `A` to `F`, where A represents 10, B represents 11, and so on, up to F representing 15.They are denoted by a hash symbol (#) followed by six hexadecimal digits. For example, #FF0000 represents pure red, and #00FF00 represents pure green.
+
+**Note**:
+- We all the time use Hex color but when we need `opacity` then use opacity then use `RGBA(Red-Green-Blue-Alpha)`. The alpha value represents transparency, with 0 meaning fully transparent and 1 meaning fully opaque. Where the alpha value is set to 0.5 (50% opacity).
+
+
+# CSS Box Model
+The box model is one of the most fundamental and important principles of CSS so we will spend a decent amount of time on this and create several examples. Every HTML element hava it's own default box model.
+- `Content` – The text, image, input or whatever the actual content is inside the box.
+- `Padding` – The space between the content and the border on all four sides.
+- `Border` – Just what it sounds like. This is where the styling for the box ends.
+- `Margin` – The space between the box and the other objects around it.
+
+<img src="https://github.com/sajib-mandal/30-Days-HTML-CSS-Learning-Path/blob/main/images/boxmodel.png" alt="HTML element" height="350" width="400">
