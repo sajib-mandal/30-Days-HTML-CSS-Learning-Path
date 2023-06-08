@@ -149,3 +149,8 @@ The box model is one of the most fundamental and important principles of CSS so 
 - Block-level boxes are the default type of box for most HTML elements, such as `<div>, <p>, and <h1> to <h6>`.
 - They take up the entire width of their parent container by default and stack vertically one after another.
 - You can control their dimensions (width and height) and apply margins, padding, and borders to them.
+
+### Inline-block boxes:
+- Inline boxes are used for elements that are naturally inline, such as `<span>, <a>, and <strong>`.
+- They don't break the flow of text and typically occupy only the space required by their content.
+- Inline boxes ignore width, height, and top/bottom margins but can have left/right margins, padding, and borders.
