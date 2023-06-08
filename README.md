@@ -150,7 +150,7 @@ The box model is one of the most fundamental and important principles of CSS so 
 - They take up the entire width of their parent container by default and stack vertically one after another.
 - You can control their dimensions (width and height) and apply margins, padding, and borders to them.
 
-<img src="https://github.com/sajib-mandal/30-Days-HTML-CSS-Learning-Path/blob/main/images/block_boxes.png" alt="HTML element" height="350" width="400">
+<img src="https://github.com/sajib-mandal/30-Days-HTML-CSS-Learning-Path/blob/main/images/block_boxes.png" alt="HTML element" height="250" width="400">
 
 ### Inline-block boxes:
 - Inline boxes are used for elements that are naturally inline, such as `<span>, <a>, <strong>, <img>, <em>, <button> etc`.
