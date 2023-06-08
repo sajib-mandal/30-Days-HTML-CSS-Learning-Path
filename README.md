@@ -151,6 +151,6 @@ The box model is one of the most fundamental and important principles of CSS so 
 - You can control their dimensions (width and height) and apply margins, padding, and borders to them.
 
 ### Inline-block boxes:
-- Inline boxes are used for elements that are naturally inline, such as `<span>, <a>, and <strong>`.
+- Inline boxes are used for elements that are naturally inline, such as `<span>, <a>, <strong>, <img>, <em>, <button> etc`.
 - They don't break the flow of text and typically occupy only the space required by their content.
 - Inline boxes ignore width, height, and top/bottom margins but can have left/right margins, padding, and borders.
