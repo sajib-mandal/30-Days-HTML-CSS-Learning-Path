@@ -158,3 +158,9 @@ The box model is one of the most fundamental and important principles of CSS so 
 - Inline boxes ignore width, height, and top/bottom margins but can have left/right margins, padding, and borders.
 
 <img src="https://github.com/sajib-mandal/30-Days-HTML-CSS-Learning-Path/blob/main/images/inline_boxes.png" alt="HTML element" height="50" width="400">
+
+### Change Block-to-Inline and Inline-to-Block
+```css
+  display: inline;
+  display: block;
+```
