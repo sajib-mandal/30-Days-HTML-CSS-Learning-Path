@@ -153,14 +153,20 @@ The box model is one of the most fundamental and important principles of CSS so 
 <img src="https://github.com/sajib-mandal/30-Days-HTML-CSS-Learning-Path/blob/main/images/block_boxes.png" alt="HTML element" height="250" width="400">
 
 ### Inline-block boxes:
-- Inline boxes are used for elements that are naturally inline, such as `<span>, <a>, <strong>, <img>, <em>, <button> etc`.
+- Inline boxes are used for elements that are naturally inline, such as `<span>, <a>, <strong>, <em>, <button> etc`.
 - They don't break the flow of text and typically occupy only the space required by their content.
 - Inline boxes ignore width, height, and top/bottom margins but can have left/right margins, padding, and borders.
 
 <img src="https://github.com/sajib-mandal/30-Days-HTML-CSS-Learning-Path/blob/main/images/inline_boxes.png" alt="HTML element" height="50" width="400">
 
+### Inline-block boxes:
+- Inline-block boxes combine features of both block-level and inline boxes.
+- They are similar to inline boxes in terms of flowing with the text but can have specified dimensions (width and height) and accept vertical margins, padding, and borders like `<img>`.
+- Inline-block boxes are often used when you need to align elements horizontally.
+
 ### Change Block-to-Inline and Inline-to-Block
 ```css
   display: inline;
   display: block;
+  display: inline-block;
 ```
