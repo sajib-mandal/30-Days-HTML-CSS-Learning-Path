@@ -134,3 +134,5 @@ The box model is one of the most fundamental and important principles of CSS so 
 - `Padding` – The space between the content and the border on all four sides.
 - `Border` – Just what it sounds like. This is where the styling for the box ends.
 - `Margin` – The space between the box and the other objects around it.
+
+<img src="https://github.com/sajib-mandal/30-Days-HTML-CSS-Learning-Path/blob/main/images/boxmodel.png" alt="HTML element" height="200" width="400">
