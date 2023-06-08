@@ -141,3 +141,12 @@ The box model is one of the most fundamental and important principles of CSS so 
 
 - Whenever you need some space inside of an element, use `Peding`.
 - Whenever you need some space outside of an element, use `Margin`.
+
+
+# Type of Boxes in CSS
+
+### Block-level boxes:
+
+- Block-level boxes are the default type of box for most HTML elements, such as <div>, <p>, and <h1> to <h6>.
+- They take up the entire width of their parent container by default and stack vertically, one after another.
+- You can control their dimensions (width and height) and apply margins, padding, and borders to them.
