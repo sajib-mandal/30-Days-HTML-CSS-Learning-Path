@@ -159,7 +159,7 @@ The box model is one of the most fundamental and important principles of CSS so 
 
 <img src="https://github.com/sajib-mandal/30-Days-HTML-CSS-Learning-Path/blob/main/images/inline_boxes.png" alt="HTML element" height="50" width="400">
 
-### Inline-block boxes:
+### Inline-block boxes: (IMPORTANT)
 - Inline-block boxes combine features of both block-level and inline boxes.
 - They are similar to inline boxes in terms of flowing with the text but can have specified dimensions (width and height) and accept vertical margins, padding, and borders like `<img>`.
 - Inline-block boxes are often used when you need to align elements horizontally.
