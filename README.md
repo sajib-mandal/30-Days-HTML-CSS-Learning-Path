@@ -127,3 +127,10 @@ Hexadecimal color codes, often referred to as hex codes, are a way of representi
 **Note**:
 - We all the time use Hex color but when we need `opacity` then use opacity then use `RGBA(Red-Green-Blue-Alpha)`. The alpha value represents transparency, with 0 meaning fully transparent and 1 meaning fully opaque. Where the alpha value is set to 0.5 (50% opacity).
 
+
+# CSS Box Model
+The box model is one of the most fundamental and important principles of CSS so we will spend a decent amount of time on this and create several examples. Every HTML element hava it's own default box model.
+- `Content` – The text, image, input or whatever the actual content is inside the box.
+- `Padding` – The space between the content and the border on all four sides.
+- `Border` – Just what it sounds like. This is where the styling for the box ends.
+- `Margin` – The space between the box and the other objects around it.
